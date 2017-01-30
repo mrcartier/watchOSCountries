@@ -12,7 +12,58 @@
 		18E85AA61DBA7F240046ECB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AA41DBA7F240046ECB4 /* Main.storyboard */; };
 		18E85AA81DBA7F240046ECB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AA71DBA7F240046ECB4 /* Assets.xcassets */; };
 		18E85AAB1DBA7F240046ECB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AA91DBA7F240046ECB4 /* LaunchScreen.storyboard */; };
+		18E85AB81DBA7F390046ECB4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AB61DBA7F390046ECB4 /* Interface.storyboard */; };
+		18E85ABA1DBA7F390046ECB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AB91DBA7F390046ECB4 /* Assets.xcassets */; };
+		18E85AC11DBA7F390046ECB4 /* CountriesWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18E85AC01DBA7F390046ECB4 /* CountriesWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18E85AC61DBA7F390046ECB4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E85AC51DBA7F390046ECB4 /* InterfaceController.swift */; };
+		18E85AC81DBA7F390046ECB4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E85AC71DBA7F390046ECB4 /* ExtensionDelegate.swift */; };
+		18E85ACA1DBA7F390046ECB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E85AC91DBA7F390046ECB4 /* Assets.xcassets */; };
+		18E85ACE1DBA7F390046ECB4 /* CountriesWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18E85AB41DBA7F390046ECB4 /* CountriesWatch.app */; };
+		18E85AD81DBA81670046ECB4 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E85AD71DBA81670046ECB4 /* DetailInterfaceController.swift */; };
+		18E85ADA1DBA82B70046ECB4 /* CountryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E85AD91DBA82B70046ECB4 /* CountryRow.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E85AC21DBA7F390046ECB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E85A951DBA7F240046ECB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E85ABF1DBA7F390046ECB4;
+			remoteInfo = "CountriesWatch Extension";
+		};
+		18E85ACC1DBA7F390046ECB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E85A951DBA7F240046ECB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E85AB31DBA7F390046ECB4;
+			remoteInfo = CountriesWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18E85AD21DBA7F390046ECB4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18E85AC11DBA7F390046ECB4 /* CountriesWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E85AD61DBA7F390046ECB4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18E85ACE1DBA7F390046ECB4 /* CountriesWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18E85A9D1DBA7F240046ECB4 /* Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +73,28 @@
 		18E85AA71DBA7F240046ECB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E85AAA1DBA7F240046ECB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E85AAC1DBA7F240046ECB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E85AB41DBA7F390046ECB4 /* CountriesWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E85AB71DBA7F390046ECB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		18E85AB91DBA7F390046ECB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E85ABB1DBA7F390046ECB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E85AC01DBA7F390046ECB4 /* CountriesWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CountriesWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E85AC51DBA7F390046ECB4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		18E85AC71DBA7F390046ECB4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		18E85AC91DBA7F390046ECB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E85ACB1DBA7F390046ECB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E85AD71DBA81670046ECB4 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
+		18E85AD91DBA82B70046ECB4 /* CountryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		18E85A9A1DBA7F240046ECB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E85ABD1DBA7F390046ECB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				18E85A9F1DBA7F240046ECB4 /* Countries */,
+				18E85AB51DBA7F390046ECB4 /* CountriesWatch */,
+				18E85AC41DBA7F390046ECB4 /* CountriesWatch Extension */,
 				18E85A9E1DBA7F240046ECB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				18E85A9D1DBA7F240046ECB4 /* Countries.app */,
+				18E85AB41DBA7F390046ECB4 /* CountriesWatch.app */,
+				18E85AC01DBA7F390046ECB4 /* CountriesWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +137,29 @@
 			path = Countries;
 			sourceTree = "<group>";
 		};
+		18E85AB51DBA7F390046ECB4 /* CountriesWatch */ = {
+			isa = PBXGroup;
+			children = (
+				18E85AB61DBA7F390046ECB4 /* Interface.storyboard */,
+				18E85AB91DBA7F390046ECB4 /* Assets.xcassets */,
+				18E85ABB1DBA7F390046ECB4 /* Info.plist */,
+			);
+			path = CountriesWatch;
+			sourceTree = "<group>";
+		};
+		18E85AC41DBA7F390046ECB4 /* CountriesWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18E85AC51DBA7F390046ECB4 /* InterfaceController.swift */,
+				18E85AC71DBA7F390046ECB4 /* ExtensionDelegate.swift */,
+				18E85AC91DBA7F390046ECB4 /* Assets.xcassets */,
+				18E85ACB1DBA7F390046ECB4 /* Info.plist */,
+				18E85AD71DBA81670046ECB4 /* DetailInterfaceController.swift */,
+				18E85AD91DBA82B70046ECB4 /* CountryRow.swift */,
+			);
+			path = "CountriesWatch Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +170,51 @@
 				18E85A991DBA7F240046ECB4 /* Sources */,
 				18E85A9A1DBA7F240046ECB4 /* Frameworks */,
 				18E85A9B1DBA7F240046ECB4 /* Resources */,
+				18E85AD61DBA7F390046ECB4 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18E85ACD1DBA7F390046ECB4 /* PBXTargetDependency */,
 			);
 			name = Countries;
 			productName = Countries;
 			productReference = 18E85A9D1DBA7F240046ECB4 /* Countries.app */;
 			productType = "com.apple.product-type.application";
+		};
+		18E85AB31DBA7F390046ECB4 /* CountriesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E85AD31DBA7F390046ECB4 /* Build configuration list for PBXNativeTarget "CountriesWatch" */;
+			buildPhases = (
+				18E85AB21DBA7F390046ECB4 /* Resources */,
+				18E85AD21DBA7F390046ECB4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E85AC31DBA7F390046ECB4 /* PBXTargetDependency */,
+			);
+			name = CountriesWatch;
+			productName = CountriesWatch;
+			productReference = 18E85AB41DBA7F390046ECB4 /* CountriesWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		18E85ABF1DBA7F390046ECB4 /* CountriesWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E85ACF1DBA7F390046ECB4 /* Build configuration list for PBXNativeTarget "CountriesWatch Extension" */;
+			buildPhases = (
+				18E85ABC1DBA7F390046ECB4 /* Sources */,
+				18E85ABD1DBA7F390046ECB4 /* Frameworks */,
+				18E85ABE1DBA7F390046ECB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CountriesWatch Extension";
+			productName = "CountriesWatch Extension";
+			productReference = 18E85AC01DBA7F390046ECB4 /* CountriesWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +227,12 @@
 				ORGANIZATIONNAME = CCG;
 				TargetAttributes = {
 					18E85A9C1DBA7F240046ECB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18E85AB31DBA7F390046ECB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18E85ABF1DBA7F390046ECB4 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -113,6 +251,8 @@
 			projectRoot = "";
 			targets = (
 				18E85A9C1DBA7F240046ECB4 /* Countries */,
+				18E85AB31DBA7F390046ECB4 /* CountriesWatch */,
+				18E85ABF1DBA7F390046ECB4 /* CountriesWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +268,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18E85AB21DBA7F390046ECB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E85ABA1DBA7F390046ECB4 /* Assets.xcassets in Resources */,
+				18E85AB81DBA7F390046ECB4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E85ABE1DBA7F390046ECB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E85ACA1DBA7F390046ECB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +297,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18E85ABC1DBA7F390046ECB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E85AD81DBA81670046ECB4 /* DetailInterfaceController.swift in Sources */,
+				18E85AC81DBA7F390046ECB4 /* ExtensionDelegate.swift in Sources */,
+				18E85AC61DBA7F390046ECB4 /* InterfaceController.swift in Sources */,
+				18E85ADA1DBA82B70046ECB4 /* CountryRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E85AC31DBA7F390046ECB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E85ABF1DBA7F390046ECB4 /* CountriesWatch Extension */;
+			targetProxy = 18E85AC21DBA7F390046ECB4 /* PBXContainerItemProxy */;
+		};
+		18E85ACD1DBA7F390046ECB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E85AB31DBA7F390046ECB4 /* CountriesWatch */;
+			targetProxy = 18E85ACC1DBA7F390046ECB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		18E85AA41DBA7F240046ECB4 /* Main.storyboard */ = {
@@ -157,6 +338,14 @@
 				18E85AAA1DBA7F240046ECB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18E85AB61DBA7F390046ECB4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E85AB71DBA7F390046ECB4 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,6 +454,66 @@
 			};
 			name = Release;
 		};
+		18E85AD01DBA7F390046ECB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CountriesWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cartier.Countries.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		18E85AD11DBA7F390046ECB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CountriesWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cartier.Countries.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		18E85AD41DBA7F390046ECB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CountriesWatch_Extension;
+				INFOPLIST_FILE = CountriesWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cartier.Countries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		18E85AD51DBA7F390046ECB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CountriesWatch_Extension;
+				INFOPLIST_FILE = CountriesWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cartier.Countries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -282,6 +531,22 @@
 			buildConfigurations = (
 				18E85AB01DBA7F240046ECB4 /* Debug */,
 				18E85AB11DBA7F240046ECB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E85ACF1DBA7F390046ECB4 /* Build configuration list for PBXNativeTarget "CountriesWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E85AD01DBA7F390046ECB4 /* Debug */,
+				18E85AD11DBA7F390046ECB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E85AD31DBA7F390046ECB4 /* Build configuration list for PBXNativeTarget "CountriesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E85AD41DBA7F390046ECB4 /* Debug */,
+				18E85AD51DBA7F390046ECB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
