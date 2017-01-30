@@ -8,7 +8,6 @@
 //
 
 
-//from http://www.appcoda.com/selectable-table-watchkit/
 
 
 
